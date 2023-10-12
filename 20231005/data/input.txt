@@ -1,0 +1,15 @@
+14
+key_decompo_fname                      # data/decompo_input_3d.txt                            # {input file name}
+key_exchange_domain_halo_fname         # data/exchange_input.txt                              # {input file name}
+key_steps_end_step                     # 200000                                               # {end step}
+key_readgrid_fname                     # data/les3d_z81_24.x                                  # {input file name}
+key_readgrid_scale                     # 1.0                                                  # {grid scale factor}
+key_restart_step                       # 0                                                    # {restart step (if 0 then initial condition)}
+key_restart_mode                       # 0                                                    # {<0>:2d->2d or 3d->3d  <1>:2d->3d}
+key_time_delta_mode                    # 1                                                    # {<0>:global time step  <1>:local time step}
+key_time_delta_cfl                     # 1.0                                                  # {CFL number}
+key_time_delta_min_max_limits          # 0.0 10000000.0                                       # {minimum delta t} {maximum delta t}
+key_time_integral_mode                 # 1                                                    # {<0>:explicit(Runge-Kutta) <1>:implicit(with inner iteration)}
+key_explicit_mode                      # 3                                                    # {<3>:3rd-order <4>:4th-order <else>:2nd-order}
+key_implicit_inner_iteration           # 8                                                    # {Num of inner iteration for implicit time integration}
+key_implicit_relaxation                # 1.0                                                  # {Relaxation factor in inner iteration}
